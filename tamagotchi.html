@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tamagotchi</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/tamagotchi.css"> <!-- Importa o arquivo CSS para estilizar a página -->
+</head>
+<body>
+    <h1>Tamagotchi</h1> <!-- Título principal da página -->
+    <div id="tamagotchi">
+      <div id="emoji" class="emoji">😺</div> <!-- Div que exibe o emoji do Tamagotchi -->
+      <div id="status">
+        <p id="felicidade">Felicidade: 50</p> <!-- Parágrafo que exibe o nível de felicidade do Tamagotchi -->
+        <p id="fome">Fome: 50</p> <!-- Parágrafo que exibe o nível de fome do Tamagotchi -->
+      </div>
+    </div>
+    <div id="opcoes">
+      <button onclick="alimentar()">Alimentar</button> <!-- Botão para alimentar o Tamagotchi -->
+      <button onclick="acariciar()">Acariciar</button> <!-- Botão para acariciar o Tamagotchi -->
+      <button onclick="passear()">Passear</button> <!-- Botão para levar o Tamagotchi para passear -->
+      <button onclick="trocarRoupa()">Trocar Roupa</button> <!-- Botão para trocar a roupa do Tamagotchi -->
+      <select id="emoji-select"> <!-- Select para escolher o emoji do Tamagotchi -->
+        <optgroup label="Tamagotchi">
+            <option value="😺">😺</option> <!-- Opção para selecionar o emoji de um gato -->
+            <option value="🐶">🐶</option> <!-- Opção para selecionar o emoji de um cachorro -->
+            <option value="🐱">🐱</option> <!-- Opção para selecionar o emoji de um gato -->
+            <option value="🐭">🐭</option> <!-- Opção para selecionar o emoji de um rato -->
+            <option value="🐰">🐰</option> <!-- Opção para selecionar o emoji de um coelho -->
+        </optgroup>
+      </select>
+      <button onclick="reiniciar()">Reiniciar</button> <!-- Botão para reiniciar a página -->
+    </div>
+    <div id="console-container"> <!-- Div que envolve o console de mensagens -->
+      <div id="console"></div> <!-- Div que exibe as mensagens no console -->
+    </div>
+  <script src="/assets/js/tamagotchi.js"></script> <!-- Importa o arquivo JavaScript com a lógica do Tamagotchi -->
+</body>
+</html>

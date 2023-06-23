@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto para Arial ou qualquer fonte sans-serif */
+    text-align: center; /* Centraliza o conteúdo do body horizontalmente */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    height: 100vh; /* Define a altura do container como 100% da altura da viewport */
+  }
+  
+  h1 {
+    color: #333; /* Define a cor do título como cinza escuro (#333) */
+  }
+  
+  .tamagotchi {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    background-color: #f5f5f5; /* Define a cor de fundo como um tom claro de cinza (#f5f5f5) */
+    padding: 20px; /* Adiciona um preenchimento interno de 20 pixels */
+    border-radius: 10px; /* Adiciona bordas arredondadas com raio de 10 pixels */
+  }
+  
+  #emoji {
+    font-size: 48px; /* Define o tamanho da fonte do emoji como 48 pixels */
+    margin-bottom: 10px; /* Adiciona uma margem inferior de 10 pixels */
+  }
+  
+  .buttons {
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels */
+  }
+  
+  button {
+    margin: 5px; /* Adiciona uma margem de 5 pixels em todos os lados do botão */
+    padding: 10px 20px; /* Adiciona um preenchimento interno de 10 pixels no topo e na base, 20 pixels nos lados */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Adiciona bordas arredondadas com raio de 4 pixels */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar o mouse sobre o botão */
+    background-color: #4CAF50; /* Define a cor de fundo como verde (#4CAF50) */
+    color: #fff; /* Define a cor do texto como branco (#fff) */
+  }
+  
+  .status {
+    font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
+    color: #333; /* Define a cor do texto como cinza escuro (#333) */
+  }
+  
+  #console-container {
+    max-height: 200px; /* Altura máxima do contêiner */
+    overflow-y: scroll; /* Rolagem vertical automática */
+  }
+  
+  /* Estilos para o elemento <select> */
+  #emoji-select {
+    font-family: Arial, sans-serif; /* Define a fonte do texto para Arial ou qualquer fonte sans-serif */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+    padding: 8px; /* Adiciona um preenchimento interno de 8 pixels */
+    border: 1px solid #ccc; /* Adiciona uma borda sólida de cor cinza claro (#ccc) */
+    border-radius: 4px; /* Adiciona bordas arredondadas com raio de 4 pixels */
+    width: 200px; /* Define a largura do elemento como 200 pixels */
+  }
+  
+  /* Estilos para as opções dentro do <select> */
+  #emoji-select option {
+    padding: 8px; /* Adiciona um preenchimento interno de 8 pixels */
+  }
+  
+  /* Estilos para os grupos de opções */
+  #emoji-select optgroup {
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: #555; /* Define a cor do texto como cinza escuro (#555) */
+  }
+  
